@@ -1,0 +1,40 @@
+#include <iostream>
+#include <string>
+#include "hello.h"
+#include "person.h"
+
+
+
+int main()
+{
+    hello();
+
+    Person leo;
+    leo.firstname = "Leo";
+    leo.lastname = "Quensel";
+    leo.age = 34;
+    for (int i = 0; i < 100; i+=5) {
+        std::string schleife = "Plugin Connecting...\n";
+        std::cout << schleife;
+        if (i > 51) {
+            break;
+        }
+       
+    }
+        std::string ende = "Plugin Connectet";
+        std::cout << ende;
+        
+     
+    //bool fertig = false; 
+    //while (!fertig) {
+    //    std::string gecrashed = "Plugin Connecting...";
+    //    std::cout << gecrashed;
+    //    fertig = true;
+    //    std::string ende = "Plugin Connectet";
+    //    std::cout << ende;
+    //    
+    //}
+
+    }
+
+

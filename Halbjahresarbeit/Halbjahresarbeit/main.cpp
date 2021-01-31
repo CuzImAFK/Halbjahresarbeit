@@ -7,33 +7,10 @@
 
 int main()
 {
-    hello();
-
-    Person leo;
-    leo.firstname = "Leo";
-    leo.lastname = "Quensel";
-    leo.age = 34;
-    //for (int i = 0; i < 100; i++) {
-    //    std::string schleife = "Plugin Connecting...\n";
-    //    std::cout << schleife;
-    //    if (i > 51) {
-    //        break;
-    //    }
-    //   
-    //}
-    //    std::string ende = "Plugin Connectet";
-    //    std::cout << ende;
-        
-     
-    //bool fertig = false; 
-    //while (!fertig) {
-    //    std::string gecrashed = "Plugin Connecting...";
-    //    std::cout << gecrashed;
-    //    fertig = true;
-    //    std::string ende = "Plugin Connectet";
-    //    std::cout << ende;
-    //    
-    //}
+    Person leo(std::string("Leo "), std::string("Quensel"));
+    Person moritz(std::string("Moritz"), std::string("Thiele"));
+    std::cout << leo.getfullname();
+    
 
     }
 
